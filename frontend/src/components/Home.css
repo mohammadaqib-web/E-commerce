@@ -1,0 +1,102 @@
+/* Slider & HomeCover CSS */
+
+/* HomeCover Styles */
+.cover-image {
+    /* Reduce opacity for the cover image */
+    opacity: 0.3;
+}
+
+h2.card-title {
+    /* Card title styles */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 3px 3px black;
+}
+
+.card-img-overlay {
+    /* Apply blur effect to the card overlay */
+    backdrop-filter: blur(5px);
+}
+
+.card-text {
+    /* Center-align and style card text */
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    flex-grow: 1;
+}
+
+.cover-text {
+    /* Add shadow to cover text */
+    text-shadow: 1px 1px red;
+}
+
+/* Media queries for responsive design */
+@media (min-width: 768px) {
+    h2.card-title {
+        /* Increase font size for larger screens */
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 992px) {
+    .hide-md {
+        /* Hide elements on medium-sized screens */
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .hide-xs {
+        /* Hide elements on small-sized screens */
+        display: none;
+    }
+}
+
+p {
+    /* Center-align paragraphs */
+    text-align: center;
+}
+
+/* Product Card Styles */
+.title-card {
+    /* Bold style for card titles */
+    font-weight: bold;
+}
+
+.text-card {
+    /* Regular style for card descriptions */
+    font-weight: 400;
+}
+
+.heading {
+    /* Center-align and underline heading with a color */
+    text-align: center;
+    color: aliceblue;
+    text-decoration: underline #dc4545;
+}
+
+/* Slider Styles */
+.slider {
+    /* Set background color for the slider section */
+    background-color: black;
+}
+
+.card {
+    /* Set height for cards within the slider */
+    height: 100%;
+}
+
+.card-body {
+    /* Flex layout for card body to align content vertically */
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.card .card-img-top {
+    /* Maintain aspect ratio and cover the image within the card */
+    aspect-ratio: 3/2;
+    object-fit: cover !important;
+}

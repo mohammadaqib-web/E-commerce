@@ -1,0 +1,19 @@
+@media (max-width:794px){
+    #product-Img{
+        height: 200px !important;
+        width: 300px !important;
+        
+    }
+    h5,h2{
+        text-align: center;
+    }
+    div{
+        border: none !important;
+    }
+}
+h2,h5{
+    overflow: hidden;
+}
+html{
+    background-color: black;
+}

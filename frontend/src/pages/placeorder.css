@@ -1,0 +1,8 @@
+@media(max-width:650px){
+    .division{
+        display: block !important;
+    }
+    .div-product{
+        margin-top: 30px !important;
+    }
+}
